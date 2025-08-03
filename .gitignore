@@ -1,0 +1,6 @@
+# Ignore large datasets and outputs
+*.csv
+*.log
+*.json
+logs/
+data/*.csv
