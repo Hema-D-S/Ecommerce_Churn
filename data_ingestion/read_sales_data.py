@@ -14,7 +14,7 @@ logging.basicConfig(
 
 # Constants
 SALES_CSV_PATH = r"C:\Users\user\Ecommerce_Churn\data\Sales.csv"
-OUTPUT_CSV_PATH = r"C:\Users\user\Ecommerce_Churn\data\cleaned_sales.csv"
+OUTPUT_CSV_PATH = r"C:\Users\user\Ecommerce_Churn\data\processed_sales.csv"
 CHUNK_SIZE = 100_000
 MAX_CHUNKS = 250  # Limit to 250 chunks (25 million rows approx)
 
