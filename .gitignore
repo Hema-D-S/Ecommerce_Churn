@@ -4,3 +4,4 @@
 *.json
 logs/
 data/*.csv
+*.db
