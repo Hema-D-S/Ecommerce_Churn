@@ -5,3 +5,5 @@
 logs/
 data/*.csv
 *.db
+feature_engineering/*.csv
+*.parquet
