@@ -26,6 +26,10 @@ def train_model(X_file='data/train.csv',
     model = RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42)
     model.fit(X, y)
 
+    feature_names = X.columns.tolist()
+    joblib.dump(feature_names, "models/feature_names.pkl")
+
+
     print("✅ 70% - Saving model...")
     joblib.dump(model, model_file)
 
