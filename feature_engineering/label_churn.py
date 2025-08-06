@@ -1,6 +1,6 @@
 import pandas as pd
 
-def label_churn(merged_df, inactivity_threshold=90):
+def label_churn(merged_df, inactivity_threshold=580):
     print("[5/5] Labeling churn...")
     merged_df['churned'] = (merged_df['last_purchase_gap'] > inactivity_threshold).astype(int)
     print("[✅] Churn labeling completed (100%)\n")
